@@ -1,7 +1,5 @@
 import { Sequelize, Dialect } from "sequelize";
 import dbConfig from "../configs/config-mysql";
-console.log(dbConfig);
-
 class Database {
     private static instance: Sequelize;
 
